@@ -1,3 +1,5 @@
+body { background: #0f0f0f; }
+
 header {
    position: relative;
    height: 800px;
@@ -9,7 +11,6 @@ header {
    text-align: center;
    overflow: hidden;
 }
-
 header:before {
    content: '';
    display: inline-block;
@@ -127,7 +128,6 @@ ul#nav li a {
 	text-decoration: none;
    text-align: left;
    color: #fff;
-
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
@@ -228,10 +228,6 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
-
 .bars {
 	width: 95%;
 	float: left;
@@ -278,12 +274,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 75%;
+  	width: 55%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 80%;
+  	width: 50%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
@@ -309,8 +305,8 @@ ul#nav li.current a { color: #F06000; }
 }
 .bahasa-ingris {
    width: 80%;
-   -moz-animation: bahasa-ingris 2s ease;
-   -webkit-animation: bahasa-ingris 2s ease;
+   -moz-animation: musik 2s ease;
+   -webkit-animation: musik 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -319,11 +315,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 55%;  }
 }
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 50%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -352,11 +348,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 55%;  }
 }
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 50%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
@@ -374,10 +370,14 @@ ul#nav li.current a { color: #F06000; }
    0%   { width: 0px;  }
    100% { width: 85%;  }
  }
- @-webkit-keyframes bahasa-ingris {
+ @-webkit-keyframes musik {
    0%   { width: 0px;  }
    100% { width: 80%;  }
  }
+
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
 
 footer {
    padding-top: 48px;
@@ -455,4 +455,5 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
 
